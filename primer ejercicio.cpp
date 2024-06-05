@@ -1,10 +1,5 @@
-escribe una funcioon que tome un arreglo de enteros y un numero K y determinesi existen dos numeros en el 
-arreglo cuya suma sea igual a K.
-
-
-
-
-
+//escribe una funcioon que tome un arreglo de enteros y un numero K y determinesi existen dos numeros en el 
+//arreglo cuya suma sea igual a K.
 
 #include <iostream>
 #include <unordered_set>
@@ -14,7 +9,7 @@ bool encuentra_suma(std::vector<int>& arr, int K) {
     // Crea un conjunto para almacenar los números ya vistos
     std::unordered_set<int> numeros_vistos;
 
-    // Itera a través de los números en el arreglo
+    
     for (int num : arr) {
         // Calcula el complemento necesario para que la suma sea K
         int complemento = K - num;
